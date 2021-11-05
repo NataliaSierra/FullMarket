@@ -23,7 +23,7 @@ namespace FullMarket.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Intercambio()
         {
             return View();
         }

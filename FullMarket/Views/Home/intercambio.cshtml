@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]< FullMarket</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        @*Imageneslogo*@
+        <div class="main">
+            <nav>
+                <ul>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index"> Regalar</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="intercambio">Intercambiar</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="notificaciones">Notificaciones</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="profile">Ver Perfil</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Ver Historial</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="img_Product">
+        @*imagenProducto*@
+        <h2>Agregar Foto</h2>
+
+    </div>
+    <div class="rectangle">
+        <h1>Descripcion</h1>
+    </div>
+    <div class="rectangle-two">
+        @*imagen*@
+    </div>
+    <div class="rectangle">
+        <h1>Cant. Personas a Aplicar</h1>
+        <input type="number" id="cantidad" placeholder="Ingrese la cantidad" />
+    </div> 
+    <div class="btn-public">
+        <button href="/" id="publicIntercambio">Publicar</button>
+    </div>
+    <footer></footer>
+
+</body>
+</html>

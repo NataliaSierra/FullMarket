@@ -1,8 +1,27 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FullMarket</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <button asp-area="" asp-controller="Home" asp-action="Index" id="initial">Iniciar Sesion</button>
+        <button asp-area="" asp-controller="Home" asp-action="Index" id="checkIn">Registrarse</button>
+    </header>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <div class="space"></div>
+    <div class="section">
+        <h1>Bienvenido a FullMarket</h1>
+        <div class="paragraph">
+            <p>Registrate e Inicia Sesion si no estas registrado; para vivir una maravillosa experiencia.</p>
+        </div>
+    </div>
+    <div class="space"></div>
+    <footer></footer>
+
+</body>
+</html>
